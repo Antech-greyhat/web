@@ -20,6 +20,14 @@ header{
     margin-top: 0;
     border-radius: 3px;
 }
+h1{
+  font-family: cursive;
+  font-size: 20px;
+  padding: 10px;
+  margin: 5px;
+  font-style: italic;
+  text-decoration: line-through;
+}
 nav{
   width: 50%;
   height: 70px;
@@ -99,3 +107,4 @@ button:hover{
   font-family: fantasy;
   display: block;
 }
+
