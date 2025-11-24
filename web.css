@@ -1,0 +1,17 @@
+:root{
+    --background-color1: rgb(148, 104, 87);
+    --background-color2: rgba(50, 94, 73, 0.818); 
+    --background-colorbtn: rgb(56, 52, 52);
+    --colorbtn: rgb(210, 187, 187);
+}
+body{
+   margin: 5px;
+   padding: 5px;
+   box-sizing: border-box; 
+   background-color: var(--background-color1);                                                                                                        
+}
+header{
+    width: 100%;
+    display: flex;
+    background-color: var(--background-color2);
+}
