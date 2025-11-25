@@ -7,7 +7,8 @@
 body{
    padding: 5px;
    box-sizing: border-box; 
-   background-color: var(--background-color1);                                                                                                        
+   background-color: rgb(20, 30, 40);
+    color: linen;
 }
 header{
     width: 100%;
@@ -245,6 +246,7 @@ textarea{
   border-radius: 10px;
      box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.5);
 }
+
 
 
 
