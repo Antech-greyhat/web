@@ -246,6 +246,12 @@ textarea{
   border-radius: 10px;
      box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.5);
 }
+footer{
+    color: linen;
+    bacground-color: var(--background-color1);
+    display: grid;
+    grid-template-row: 1fr 1fr 1fr;
+}
 
 
 
