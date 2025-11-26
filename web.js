@@ -3,6 +3,6 @@ function clicked(){
   console.log("Button clicked! send money 0714452396")
 }
 function submitted(){
-  alert(" details submitted succefully ");
+  alert(" Details Submitted Succefully ");
   console.log("alert")
 }
