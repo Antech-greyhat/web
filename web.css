@@ -252,19 +252,57 @@ footer{
     display: grid;
     grid-template-row: 1fr 1fr 1fr;
 }
-@media only screen and (max-width: 720px){
-    nav>ul>li{
-        padding: 2px;
-        font-size: 10px;
+@media (max-width: 600px) {
+
+    /* Make the navigation stack vertically */
+    header {
+        flex-direction: column; /* Stack header items vertically */
+        text-align: center;
     }
-    nav>ul{
-        padding: 2px;
+
+    nav {
+        width: 100%; /* Make navigation take full width */
+        margin-top: 10px;
     }
-    nav > ul > li > a{
-        padding 2px;
+
+    nav ul {
+        flex-direction: column; /* Stack the list items vertically */
+    }
+
+    nav ul li {
+        border-top: 1px solid #555; /* Add a divider between links */
+        width: 100%;
+    }
+
+    nav ul li:first-child {
+        border-top: none;
+    }
+
+    /* Adjust padding for smaller screens if needed */
+    main section {
+        padding: 15px;
+    }
+    /* Make input fields and buttons take full width inside the form */
+    #feedback input[type="email"], 
+    #feedback input[type="tel"], 
+    #feedback select, 
+    #feedback textarea,
+    #feedback button {
+        width: 100%;
+        margin-bottom: 15px; /* Add space below them */
+    }
+
+    /* Adjust the text area to fit the screen */
+    #feedback textarea {
+        box-sizing: border-box; /* Include padding and border in the element's total width and height */
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        cols: auto !important; /* Override inline/attribute cols */
     }
 }
         
+
 
 
 
