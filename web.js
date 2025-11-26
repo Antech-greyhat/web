@@ -4,4 +4,5 @@ function clicked(){
 }
 function submitted(){
   alert(" details submitted succefully ");
+  console.log("alert")
 }
