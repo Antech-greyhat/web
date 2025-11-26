@@ -252,6 +252,19 @@ footer{
     display: grid;
     grid-template-row: 1fr 1fr 1fr;
 }
+@media only screen and (max-width: 720px){
+    nav>ul>li{
+        padding: 2px;
+        font-size: 10px;
+    }
+    nav>ul{
+        padding: 2px;
+    }
+    nav > ul > li > a{
+        padding 2px;
+    }
+}
+        
 
 
 
