@@ -108,6 +108,11 @@ button:disabled{
   cursor: not-allowed;
   color: red;
 }
+button:active{
+    cursor: not-allowed;
+    color: white;
+    background-color: grey;
+}
 .quote{
   margin-top: 10px;
   text-decoration: underline;
@@ -302,6 +307,7 @@ footer{
     }
 }
         
+
 
 
 
